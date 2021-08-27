@@ -174,7 +174,7 @@ window.addEventListener('load',()=>{
             e.preventDefault()
             const prev = ventanas.ventana_2.prev.querySelector('.container_logo_banners img')
             //selecciona el campo donde pintará la url de la imagen subida
-            set_logo_url({input:inputs[3],prev})
+            set_logo_url({input:inputs[2],prev})
           })
       }
       
@@ -219,7 +219,6 @@ const render_prev = ({input,html_element,post_type})=>{
     const logo = html_element.querySelector('.container_logo_banners img')
     const background_card = html_element.querySelector('.grid_card_banners')
     const background_button = html_element.querySelector('.container_button_banners a')
-    const slogan = html_element.querySelector('.container_slogan_banners')
     const background_logo = html_element.querySelector('.container_logo_banners')
     
     if(input.name == 'post_title'){
@@ -228,9 +227,6 @@ const render_prev = ({input,html_element,post_type})=>{
 
     if(input.name == 'title_color'){
       title_texts[0].style.color = input.value
-    }
-    if(input.name == 'post_excerpt'){
-      slogan.textContent = input.value
     }
     if(input.name == 'logo_link'){
       logo.src = input.value

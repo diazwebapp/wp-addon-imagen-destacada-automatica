@@ -1,9 +1,9 @@
 <?php
 /*
  * Plugin Name: Promo addon imagen destacada automatica
- * Plugin URI: www.crecimientodigital.com.ve
+ * Plugin URI: https://github.com/diaz-web-app/wp-addon-imagen-destacada-automatica
  * Description: Añade shortcode de promociones y extiende los custon field del plugin imagen destacada automatica
- * Version: 2.5
+ * Version: 2.6
  * Author: Diaz web app
  * Author URI: https://diazweb.website
  * WC requires at least: 5.0

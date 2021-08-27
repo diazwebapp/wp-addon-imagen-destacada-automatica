@@ -114,10 +114,6 @@ function aw_cpanel_page_2(){ ?>
             <input type="text" name="post_title" required>
         </div>
         <div>
-            <label>slogan</label>
-            <input type="text" name="post_excerpt" required>
-        </div>
-        <div>
             <label>Refear Link</label>
             <input type="url" name="refear_link" required>
         </div>

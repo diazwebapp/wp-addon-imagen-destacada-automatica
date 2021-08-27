@@ -38,8 +38,7 @@ function aw_create_promo(WP_REST_Request $request){
         $id_banner = wp_insert_post([
             'post_title' => $params->post_title,
             'post_status' => 'pending',
-            'post_type' => 'banners',
-            'post_excerpt' => $params->post_excerpt
+            'post_type' => 'banners'
         ]);
         update_post_meta($id_banner,'background_color',$params->background_color);
         update_post_meta($id_banner,'background_button',$params->background_button);

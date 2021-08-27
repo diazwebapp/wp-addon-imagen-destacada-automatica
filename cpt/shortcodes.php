@@ -244,7 +244,7 @@ function shortcode_banners($attr){
 					<img src='{$logo_link}' alt='logo'>
 				</div>
 				<div class='container_slogan_banners'>					
-					<p>Apuesta $eleccion</p>
+					<p>$banner->post_title $eleccion</p>
 				</div>
 				<div class='container_button_banners'>
 					<a href='$refear_link' >Apuesta</a>
